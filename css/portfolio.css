@@ -402,8 +402,7 @@ a:hover, a:focus, a:active {
 .about{
   margin: 4em 0;
   padding: 1em;
-  position: relative;
-  height: auto;
+  min-height: 100%vh; 
  }
  .about h1{
   color:#f4f4f4;
@@ -430,7 +429,6 @@ a:hover, a:focus, a:active {
  }
  .about .desc p{
   line-height:2em;
-  height: 1.2em;
   color:#888;
   text-align: justify;
   text-justify: inter-word;
