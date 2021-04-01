@@ -1,9 +1,3 @@
-/*!
- * Start Bootstrap - Stylish Portfolio v5.0.9 (https://startbootstrap.com/theme/stylish-portfolio)
- * Copyright 2013-2020 Start Bootstrap
- * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-stylish-portfolio/blob/master/LICENSE)
- */
-
 body,
 html {
   width: 100%;
@@ -14,8 +8,8 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
-.btn-xl {
-  padding: 1.25rem 2.5rem;
+.btn-l {
+  padding: 1.1rem 2rem;
 }
 
 .content-section {
@@ -38,7 +32,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 p {
@@ -97,11 +91,33 @@ p {
 }
 
 .logo img{
-  width: 100px;
+  width: 70px;
   height: auto;
 }
 
-.masthead {
+.masthead{
+  /* agrega la imagen banner */
+  background: linear-gradient(90deg, rgba(29, 128, 159, 1), rgba(255, 255, 255, 0.6)), url("../img/background.jpg");
+  /* fondo total */
+  background-size: cover;
+  /* altura vertical */
+  height: 100vh;
+  /* oculatar el scroll horizontal */
+  overflow: hidden;
+  /* modo de fusion */
+  background-blend-mode: multiply;
+  /* proyecta una sombra difuminada */
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.25);
+  /* posiciona el fondo al centro */
+  background-position: center center;
+  /* otras caracteristicas */
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: static;
+
+}
+
+/* .masthead {
   min-height: 30rem;
   position: relative;
   display: table;
@@ -114,17 +130,23 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-}
+} */
 
 .masthead h1 {
-  font-size: 4rem;
+  font-size: 2.5rem;
   margin: 0;
   padding: 0;
+  color:#e6e6ea;
+}
+
+.masthead h3 {
+  color: #e6e6ea;
+  font-size: 1.5rem;
 }
 
 .masthead a{
   border-radius: 40px ;
-  color: #f3cd74 !important;
+  color:  #fed766 !important;
   font-size: 1.2em;
 }
 
