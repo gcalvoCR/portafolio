@@ -45,16 +45,18 @@
         class="dropdown-menu align-items-end"
         aria-labelledby="dropdownMenuLink"
       >
-      <a class="dropdown-item text-right" href="/">Inicio</a>
+        <a class="dropdown-item text-right" href="/">Inicio</a>
         <a class="dropdown-item text-right" href="#about">¿Quién soy?</a>
         <a class="dropdown-item text-right" href="#services">Especialidades</a>
         <a class="dropdown-item text-right" href="#trabajos">Trabajos</a>
         <a class="dropdown-item text-right" href="#contacto">Contacto</a>
         <a
-        class="dropdown-item text-right"
-        download="./documents/cv_gabriel_calvo.pdf"
-        href="./documents/cv_gabriel_calvo.pdf"
-        target="_blank">CV</a>
+          class="dropdown-item text-right"
+          download="./documents/cv_gabriel_calvo.pdf"
+          href="./documents/cv_gabriel_calvo.pdf"
+          target="_blank"
+          >CV</a
+        >
       </div>
     </div>
 
@@ -64,10 +66,10 @@
         <img src="img/amarillo-01.png" alt="" />
       </div>
       <div class="container text-center my-auto">
-        <h1 class="mb-1">
+        <h1 class="mb-3">
           <span style="color: #fed766">gabriel</span> &ltdevelops/&gt
         </h1>
-        <h3 class="mb-5">Desarrollando ideas brillantes y con estilo</h3>
+        <h3 class="mb-5 sin-negrita">Desarrollando ideas, de manera sencilla y con estilo</h3>
         <div class="container">
           <a
             class="btn btn-dark btn-l animate__animated animate__infinite animate__pulse"
@@ -85,9 +87,7 @@
           <div class="col-lg-6 col-md-6 col-sm-12">
             <img src="img/me.jpg" class="img-fluid" />
             <div>
-              <h4 class="text-center">
-                Desarrollador de Software y QA Tester
-              </h4>
+              <h4 class="text-center">Desarrollador de Software y QA Tester</h4>
             </div>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12 desc">
@@ -124,14 +124,18 @@
       id="services"
     >
       <div class="container">
-         <div class="container-titulos">
+        <div class="container-titulos">
           <h2 class="text-center amarillo">Especialidades</h2>
-          <h4 class="text-center blanco sin-negrita">¡Porque todos tenemos puntos fuertes!</h4>
-          </div>
-          
+          <h4 class="text-center blanco sin-negrita">
+            ¡Porque todos tenemos puntos fuertes!
+          </h4>
+        </div>
+
         <div class="row">
           <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-            <span class="service-icon rounded-circle mx-auto mb-3 animate__animated animate__infinite animate__pulse">
+            <span
+              class="service-icon rounded-circle mx-auto mb-3"
+            >
               <i class="icon-bulb"></i>
             </span>
             <h4 class="subtitulos amarillo">
@@ -143,7 +147,7 @@
             <span class="service-icon rounded-circle mx-auto mb-3">
               <i class="icon-screen-desktop"></i>
             </span>
-            <h4  class="subtitulos amarillo">
+            <h4 class="subtitulos amarillo">
               <strong>Programación</strong>
             </h4>
             <p class="text-faded mb-0">de ideas brillantes y con estilo.</p>
@@ -152,7 +156,7 @@
             <span class="service-icon rounded-circle mx-auto mb-3">
               <i class="icon-chart"></i>
             </span>
-            <h4  class="subtitulos amarillo">
+            <h4 class="subtitulos amarillo">
               <strong>Métricas</strong>
             </h4>
             <p class="text-faded mb-0">
@@ -163,7 +167,7 @@
             <span class="service-icon rounded-circle mx-auto mb-3">
               <i class="icon-wrench"></i>
             </span>
-            <h4  class="subtitulos amarillo">
+            <h4 class="subtitulos amarillo">
               <strong>Soporte</strong>
             </h4>
             <p class="text-faded mb-0">de sus proyectos en cualquier fase.</p>
@@ -177,7 +181,9 @@
       <div class="container">
         <div class="content-section-heading container-titulos">
           <h2 class="text-center azul">Trabajos</h2>
-          <h4 class="text-center sin-negrita">¡Conozca algunos de mis trabajos!</h4>
+          <h4 class="text-center sin-negrita">
+            ¡Conozca algunos de mis trabajos!
+          </h4>
         </div>
         <div
           id="carouselExampleIndicators"
@@ -195,7 +201,10 @@
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <a class="trabajos" href="#">
+              <a
+                class="trabajos"
+                href="https://github.com/gcalvoCR/vue-project"
+              >
                 <div class="caption">
                   <div class="caption-content">
                     <div class="h2">Aplicaciones full-stack</div>
@@ -206,37 +215,41 @@
               </a>
             </div>
             <div class="carousel-item">
-              <a class="trabajos" href="#!">
+              <a class="trabajos" href="https://setgamebygcalvocr.netlify.app/">
                 <div class="caption">
                   <div class="caption-content">
                     <div class="h2">Aplicaciones front-end</div>
-                    <p class="mb-0">Utilizando React como framework para su desarrollo.</p>
+                    <p class="mb-0">
+                      Utilizando React como framework para su desarrollo.
+                    </p>
                   </div>
                 </div>
                 <img class="img-fluid" src="img/trabajo2.png" alt="" />
               </a>
             </div>
             <div class="carousel-item">
-              <a class="trabajos" href="#!">
+              <a
+                class="trabajos"
+                href="https://gcalvocr.github.io/automation-page/"
+              >
                 <div class="caption">
                   <div class="caption-content">
                     <div class="h2">Testing de front-end</div>
-                    <p class="mb-0">
-                      Utilizando Selenium y Cypress.
-                    </p>
+                    <p class="mb-0">Utilizando Selenium y Cypress.</p>
                   </div>
                 </div>
                 <img class="img-fluid" src="img/trabajo3.png" alt="" />
               </a>
             </div>
             <div class="carousel-item">
-              <a class="trabajos" href="#!">
+              <a
+                class="trabajos"
+                href="https://gcalvocr.github.io/countdown-app/"
+              >
                 <div class="caption">
                   <div class="caption-content">
                     <div class="h2">Aplicaciones web tradicionales</div>
-                    <p class="mb-0">
-                      Utilizando HTML, CSS y JavaScript.
-                    </p>
+                    <p class="mb-0">Utilizando HTML, CSS y JavaScript.</p>
                   </div>
                 </div>
                 <img class="img-fluid" src="img/trabajo4.png" alt="" />
@@ -266,16 +279,16 @@
     </section>
 
     <!-- Formulario de contacto -->
-    <section id="contacto" class="contacto">
+    <section id="contacto" class="content-section contacto">
       <div class="contact-form">
         <div class="container">
           <form>
             <div class="row">
               <div class="col-lg-4 col-md-4 col-sm-12">
-                <h1>¡Conversemos!</h1>
+                <h2>¡Conversemos!</h2>
               </div>
               <div class="col-lg-8 col-md-8 col-sm-12 right">
-                <h3 id="escribame">Ingrese su mensaje</h3>
+                <h4 id="escribame" class="sin-negrita">Ingrese su mensaje</h4>
                 <div class="form-group">
                   <input
                     type="text"
@@ -315,37 +328,47 @@
 
     <!-- Footer -->
     <footer class="footer text-center">
-      <!-- <div class="container"> -->
-      <ul class="list-inline mb-5">
-        <li class="list-inline-item">
-          <a
-            class="social-link rounded-circle text-white mr-3"
-            href="
-          https://www.facebook.com/Gabriel-Calvo-Vargas-106014171535335"
-          >
-            <i class="icon-social-facebook"></i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a
-            class="social-link rounded-circle text-white mr-3"
-            href="https://www.linkedin.com/in/gabriel-calvo-vargas-932b3357/"
-          >
-            <i class="icon-social-linkedin"></i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a
-            class="social-link rounded-circle text-white"
-            href="https://github.com/gcalvoCR"
-          >
-            <i class="icon-social-github"></i>
-          </a>
-        </li>
-      </ul>
-      <!-- </div> -->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 detalles">
+            <ul class="text-left mb-3">
+              <li>Teléfono<span>.......</span>(506) 6280-5172</li>
+              <li>Correo<span>...........</span>info@porta2.vs2407.com</li>
+              <li>Portafolio<span>....</span>https://porta2.vs2407.com</li>
+            </ul>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <ul class="list-inline mb-3">
+              <li class="list-inline-item">
+                <a
+                  class="social-link rounded-circle text-white mr-3"
+                  href="
+        https://www.facebook.com/Gabriel-Calvo-Vargas-106014171535335"
+                >
+                  <i class="icon-social-facebook"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a
+                  class="social-link rounded-circle text-white mr-3"
+                  href="https://www.linkedin.com/in/gabriel-calvo-vargas-932b3357/"
+                >
+                  <i class="icon-social-linkedin"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a
+                  class="social-link rounded-circle text-white"
+                  href="https://github.com/gcalvoCR"
+                >
+                  <i class="icon-social-github"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </footer>
-
     <script src="js/bootstrap-swipe-carousel.min.js"></script>
     <script src="js/portafolio.js"></script>
   </body>
