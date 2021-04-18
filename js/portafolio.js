@@ -13,14 +13,20 @@
     }
   });
 
-  $("#yo").on('click', function(e) {
-    e.preventDefault();
-    console.log("Hello")
-    // var target = $(this).attr('#about');
-    // $('html, body').animate({
-    //   scrollTop: ($(target).offset().top)
-    // }, 2000);
- });
+//   $("#yo").on('click', function(e) {
+//     e.preventDefault();
+//     console.log("Hello")
+//     // var target = $(this).attr('#about');
+//     // $('html, body').animate({
+//     //   scrollTop: ($(target).offset().top)
+//     // }, 2000);
+//  });
+$(".dropdown-menu a[href^='#']").click(function(){
+  console.log("clicked")
+  $("html, body").stop().animate({
+      scrollTop: $($(this).attr("href")).offset().top
+  }, 400);
+});
 
  
 })

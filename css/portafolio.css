@@ -8,6 +8,10 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+section {
+  min-height:50vh;  
+}
+
 .btn-l {
   padding: 1.1rem 2rem;
 }
@@ -18,7 +22,7 @@ body {
 }
 
 .content-section-heading h2 {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 /* .content-section-heading h3 {
@@ -279,14 +283,9 @@ p {
 }
 
 .trabajos .caption .caption-content {
-  color: #fff;
+  color: #555;
   margin: auto 2rem 2rem;
 }
-
-/* .trabajos .caption .caption-content h2 {
-  font-size: 0.8rem;
-  text-transform: uppercase;
-} */
 
 .trabajos .caption .caption-content p {
   font-weight: 300;
@@ -323,10 +322,15 @@ p {
     clip-path: inset(2rem);
   }
   .trabajos:hover .caption {
-    background-color: rgba(29, 128, 159, 0.9);
+    background-color: #fed766;
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
   }
+}
+
+#services{
+  background: rgb(26,118,147);
+background: linear-gradient(90deg, rgba(26,118,147,1) 0%, rgba(0,176,212,1) 100%);
 }
 
 .map iframe {
@@ -443,14 +447,6 @@ a:hover, a:focus, a:active {
   text-justify: inter-word;
  }
 
- .centered {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   text-align: center;
-   color: #555 !important;
- }
-
  .contact-form{
   margin: 6em 0;
   position: relative;  
@@ -496,3 +492,84 @@ a:hover, a:focus, a:active {
  .azul {
   color:   #1D809F !important; 
  }
+
+ .amarillo {
+  color:   #f3cd74 !important; 
+ }
+
+ .blanco {
+  color:   #fff !important; 
+ }
+
+ .dropdown-menu{
+   /* background-color: rgba(255, 255, 255, 0.2); */
+   color: white;
+   border: 0px;
+   background: #6c757d;
+ }
+
+ .dropdown-menu a{
+  color: #fff;
+}
+
+.dropdown-menu a:hover{
+  text-decoration: none;
+  color: #f3cd74 !important;
+  background: #343a40
+}
+
+#dropdownMenuLink{
+  border-radius: 5px;
+}
+
+#cv-texto{
+  display: inline;
+}
+
+.cv-container {
+  margin-top: 50px;
+}
+
+#cv{
+  color: #f3cd74;
+  background-color:  #343a40;
+}
+
+#cv i:hover{
+  text-decoration: none;
+}
+
+
+.text-center{
+  color: #888;
+}
+
+.cv-icon {
+  background-color: #fff;
+  color: #1D809F;
+  height: 5rem;
+  width: 5rem;
+  display: block;
+  line-height: 5.5rem;
+  font-size: 2.25rem;
+  box-shadow: 0 3px 3px 0 rgb(0 0 0 / 10%);
+}
+
+.container-titulos{
+  margin-bottom: 50px;
+}
+
+.caja-redondeada{
+  border-radius: 20px;
+}
+
+.sin-negrita{
+  font-weight: 400 !important;
+}
+
+.subtitulos{
+  font-size: 1.3em;
+}
+
+
+
