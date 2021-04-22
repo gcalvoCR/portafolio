@@ -6,6 +6,7 @@ html {
 
 body {
   font-family: 'Raleway', sans-serif;
+  overflow-x: hidden;
 }
 
 section {
@@ -101,7 +102,7 @@ p {
 
 .banner{
   /* agrega la imagen banner */
-  background: linear-gradient(90deg, rgba(29, 128, 159, 1), rgba(255, 255, 255, 0.6)), url("../img/background.jpg");
+  background: linear-gradient(90deg, rgba(29, 128, 159, 1), rgba(255, 255, 255, 0.6)), url("../img/background-min.jpg");
   /* fondo total */
   background-size: cover;
   /* altura vertical */
@@ -149,70 +150,11 @@ p {
   }
 }
 
-/* Side Menu */
-#sidebar-wrapper {
-  position: fixed;
-  z-index: 2;
-  right: 0;
-  width: 250px;
-  height: 100%;
-  transition: all 0.4s ease 0s;
-  transform: translateX(250px);
-  background: #1D809F;
-  border-left: 1px solid rgba(255, 255, 255, 0.1);
-}
+.shadow{
+  margin: 0px 50px 50px 0px;
+  padding: 0 !important;
 
-.sidebar-nav {
-  position: absolute;
-  top: 0;
-  width: 250px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.sidebar-nav li.sidebar-nav-item a {
-  display: block;
-  text-decoration: none;
-  color: #fff;
-  padding: 15px;
-}
-
-.sidebar-nav li a:hover {
-  text-decoration: none;
-  color: #f3cd74 !important;
-  background: rgba(255, 255, 255, 0.2);
-  /* background: #f3cd74; */
-}
-
-.sidebar-nav li a:active,
-.sidebar-nav li a:focus {
-  text-decoration: none;
-}
-
-.sidebar-nav > .sidebar-brand {
-  font-size: 1.2rem;
-  background: rgba(52, 58, 64, 0.1);
-  height: 80px;
-  line-height: 50px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 15px;
-}
-
-.sidebar-nav > .sidebar-brand a {
-  color: #fff;
-}
-
-.sidebar-nav > .sidebar-brand a:hover {
-  color: #fff;
-  background: none;
-}
-
-#sidebar-wrapper.active {
-  right: 250px;
-  width: 250px;
-  transition: all 0.4s ease 0s;
+  box-shadow: 5px 10px #888888;
 }
 
 .button-up {
@@ -269,71 +211,16 @@ p {
   display: block;
   position: relative;
   overflow: hidden;
-  max-width: 530px;
+  max-width: 100%;
   margin: auto auto 1rem;
 }
 
-.trabajos .caption {
-  display: flex;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(33, 37, 41, 0.2);
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  z-index: 1;
-}
-
-.trabajos .caption .caption-content {
-  color: #555;
-  margin: auto 0.5rem 0.5rem;
-  /* background-color: rgba(255, 255, 255, 1); */
-  padding: 10px;
-  border-radius: 15px;
-}
-
-.trabajos .caption  {
-  font-weight: 300;
-  font-size: 1.2rem;
+.trabajos img{
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%,rgba(0, 0, 0) 100%);
 }
 
 
-@media (min-width: 992px) {
-  .trabajos {
-    max-width: none;
-    margin: 0;
-  }
-  .trabajos .caption {
-    transition: background-color 0.7s, -webkit-clip-path 0.25s ease-out;
-    transition: clip-path 0.25s ease-out, background-color 0.7s;
-    transition: clip-path 0.25s ease-out, background-color 0.7s, -webkit-clip-path 0.25s ease-out;
-    -webkit-clip-path: inset(0px);
-    clip-path: inset(0px);
-  }
-  .trabajos .caption .caption-content {
-    transition: opacity 0.25s;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    margin-bottom: 5rem;
-  }
-  .trabajos img {
-    transition: -webkit-clip-path 0.25s ease-out;
-    transition: clip-path 0.25s ease-out;
-    transition: clip-path 0.25s ease-out, -webkit-clip-path 0.25s ease-out;
-    -webkit-clip-path: inset(-1px);
-    clip-path: inset(-1px);
-  }
-  .trabajos:hover img {
-    -webkit-clip-path: inset(1rem);
-    clip-path: inset(1rem);
-  }
-  .trabajos:hover .caption {
-    background-color: rgba(243, 205, 116, 0.97);
-    -webkit-clip-path: inset(1rem);
-    clip-path: inset(1rem);
-    color: red!important;
-  }
-}
+
 
 #services{
   background: rgb(26,118,147);
@@ -527,7 +414,7 @@ a:hover, a:focus, a:active {
 }
 
 #dropdownMenuLink{
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 #cv-texto{
@@ -596,6 +483,31 @@ i:hover i:focus{
 li span{
   color: transparent;
 }
+
+.whatsapp {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.7);
+  line-height: 50px;
+  z-index: 999;
+  border-radius: 10px;
+}
+
+.whatsapp:hover {
+  background: white;
+}
+
+.gradient{
+  border: 2px solid #ededed;
+  box-shadow: 30px 30px #888888;
+}
+
+
 
 
 

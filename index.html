@@ -1,375 +1,289 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Portafolio Gabriel Calvo V.</title>
-    <meta charset="utf-8" />
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-      crossorigin="anonymous"
-    ></script>
-    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
-    <script src="js/bootstrap.min.js"></script>
-    <link href="css/fontawesome.min.css" rel="stylesheet" type="text/css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-    <link href="css/portafolio.css" rel="stylesheet" />
-    <link href="css/simple-line-icons.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/animate.css" />
-  </head>
+<head>
+  <title>Portafolio Gabriel Calvo V.</title>
+  <meta charset="utf-8" />
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-  <body id="page-top">
-    <!-- Navegacion -->
-    <!-- <a class="button-up rounded animate__animated animate__infinite animate__bounce" href="#">
-    <i class="icon-arrow-up"></i>
-  </a> -->
-    <div class="dropdown show">
-      <a
-        class="button-up dropdown-toggle"
-        href="#page-top"
-        role="button"
-        id="dropdownMenuLink"
-        data-toggle="dropdown"
-        aria-haspopup="true"
-        aria-expanded="false"
-      >
-        <i class="icon-arrow-up"></i>
-      </a>
-      <div
-        class="dropdown-menu align-items-end"
-        aria-labelledby="dropdownMenuLink"
-      >
-        <a class="dropdown-item text-right" href="#page-top">Inicio</a>
-        <a class="dropdown-item text-right" href="#about">¿Quién soy?</a>
-        <a class="dropdown-item text-right" href="#services">Especialidades</a>
-        <a class="dropdown-item text-right" href="#trabajos">Trabajos</a>
-        <a class="dropdown-item text-right" href="#contacto">Contacto</a>
-        <a
-          class="dropdown-item text-right"
-          download="./documents/cv_gabriel_calvo.pdf"
-          href="./documents/cv_gabriel_calvo.pdf"
-          target="_blank"
-          >CV</a
-        >
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
+  <script src="js/bootstrap.min.js"></script>
+  <link href="css/fontawesome.min.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap" rel="stylesheet" />
+  <link href="css/portafolio.css" rel="stylesheet" />
+  <link href="css/simple-line-icons.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/animate.css" />
+  <!-- CARGA DE LIBRERIA CSS ANIMACION -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body id="page-top">
+  <div>
+    <a href="https://walink.co/88a3bf" class="whatsapp" target="blank">
+      <img src="./img/whatsapp.svg" alt="whatsapp" style="color: white" />
+    </a>
+  </div>
+  <div class="dropdown show">
+    <a class="button-up dropdown-toggle" href="#page-top" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+      aria-haspopup="true" aria-expanded="false">
+      <i class="icon-arrow-up"></i>
+    </a>
+    <div class="dropdown-menu align-items-end" aria-labelledby="dropdownMenuLink">
+      <a class="dropdown-item text-right" href="#page-top">Inicio</a>
+      <a class="dropdown-item text-right" href="#about">¿Quién soy?</a>
+      <a class="dropdown-item text-right" href="#services">Especialidades</a>
+      <a class="dropdown-item text-right" href="#trabajos">Trabajos</a>
+      <a class="dropdown-item text-right" href="#contacto">Contacto</a>
+      <a class="dropdown-item text-right" download="./documents/cv_gabriel_calvo.pdf"
+        href="./documents/cv_gabriel_calvo.pdf" target="_blank">Descargar CV</a>
+    </div>
+  </div>
+
+  <!-- Banner -->
+  <header class="banner d-flex">
+    <div class="logo">
+      <img src="img/amarillo-01.png" alt="" />
+    </div>
+    <div class="container text-center my-auto">
+      <h1 class="mb-3">
+        <span style="color: #fed766">gabriel</span> &ltdevelops/&gt
+      </h1>
+      <h3 class="mb-5 sin-negrita">
+        Desarrollando ideas, de manera sencilla y con estilo
+      </h3>
+      <div class="container">
+        <a class="btn btn-dark btn-l animate__animated animate__infinite animate__pulse" href="#about">¿Quién soy?</a>
       </div>
     </div>
+  </header>
 
-    <!-- Banner -->
-    <header class="banner d-flex">
-      <div class="logo">
-        <img src="img/amarillo-01.png" alt="" />
-      </div>
-      <div class="container text-center my-auto">
-        <h1 class="mb-3">
-          <span style="color: #fed766">gabriel</span> &ltdevelops/&gt
-        </h1>
-        <h3 class="mb-5 sin-negrita">Desarrollando ideas, de manera sencilla y con estilo</h3>
-        <div class="container">
-          <a
-            class="btn btn-dark btn-l animate__animated animate__infinite animate__pulse"
-            href="#about"
-            >¿Quién soy?</a
-          >
-        </div>
-      </div>
-    </header>
-
-    <!-- Quien soy -->
-    <section class="content-section about" id="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="img/me.jpg" class="img-fluid" />
-            <div>
-              <h4 class="text-center">Desarrollador de Software y QA Tester</h4>
-            </div>
+  <!-- Quien soy -->
+  <section class="content-section about" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <img src="img/me.jpg" class="img-fluid shadow" />
+          <div>
+            <h4 class="text-center">Desarrollador de Software y QA Tester</h4>
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 desc">
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 desc">
+          <div data-aos="fade-left">
             <h3>Gabriel Calvo Vargas</h3>
+          </div>
+
+          <br />
+          <p>
+            Desarrollador de software dedicado a la automatización de
+            procesos. Mi enfoque es el control de calidad de los productos.
             <br />
-            <p>
-              Desarrollador de software dedicado a la automatización de
-              procesos. Mi enfoque es el control de calidad de los productos.
-              <br />
-              <br />
-              Me gusta trabajar con tecnologías de punta donde se aprovechen mis
-              habilidades como programador, automatizador y conocimientos en
-              control de calidad, todo esto para contribuir al exito de los
-              proyectos.
-            </p>
-            <div class="d-flex cv-container">
-              <p id="cv-texto">¡Obtenga mi <strong>currículum</strong>!</p>
-              <a
-                class="cv-icon mx-auto text-center rounded-circle animate__animated animate__infinite animate__pulse"
-                download="./documents/cv_gabriel_calvo.pdf"
-                href="./documents/cv_gabriel_calvo.pdf"
-                target="_blank"
-                ><i class="icon-cloud-download"></i
-              ></a>
-            </div>
+            <br />
+            Me gusta trabajar con tecnologías de punta donde se aprovechen mis
+            habilidades como programador, automatizador y conocimientos en
+            control de calidad, todo esto para contribuir al exito de los
+            proyectos.
+          </p>
+          <div class="d-flex cv-container">
+            <p id="cv-texto">¡Obtenga mi <strong>currículum</strong>!</p>
+            <a class="cv-icon mx-auto text-center rounded-circle animate__animated animate__infinite animate__pulse"
+              download="./documents/cv_gabriel_calvo.pdf" href="./documents/cv_gabriel_calvo.pdf" target="_blank"><i
+                class="icon-cloud-download"></i></a>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Especialidades -->
-    <section
-      class="content-section bg-primary text-white text-center"
-      id="services"
-    >
-      <div class="container">
-        <div class="container-titulos">
-          <h2 class="text-center amarillo">Especialidades</h2>
-          <h4 class="text-center blanco sin-negrita">
-            ¡Porque todos tenemos puntos fuertes!
+  <!-- Especialidades -->
+  <section class="content-section bg-primary text-white text-center" id="services">
+    <div class="container">
+      <div class="container-titulos" data-aos="fade-left">
+        <h2 class="text-center amarillo">Especialidades</h2>
+        <h4 class="text-center blanco sin-negrita">
+          ¡Porque todos tenemos puntos fuertes!
+        </h4>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+          <span class="service-icon rounded-circle mx-auto mb-3">
+            <i class="icon-bulb"></i>
+          </span>
+          <h4 class="subtitulos amarillo">
+            <strong>Automatización</strong>
           </h4>
+          <p class="text-faded mb-0">para eliminar procesos manuales.</p>
         </div>
-
-        <div class="row">
-          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-            <span
-              class="service-icon rounded-circle mx-auto mb-3"
-            >
-              <i class="icon-bulb"></i>
-            </span>
-            <h4 class="subtitulos amarillo">
-              <strong>Automatización</strong>
-            </h4>
-            <p class="text-faded mb-0">para eliminar procesos manuales.</p>
-          </div>
-          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-            <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="icon-screen-desktop"></i>
-            </span>
-            <h4 class="subtitulos amarillo">
-              <strong>Programación</strong>
-            </h4>
-            <p class="text-faded mb-0">de ideas brillantes y con estilo.</p>
-          </div>
-          <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-            <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="icon-chart"></i>
-            </span>
-            <h4 class="subtitulos amarillo">
-              <strong>Métricas</strong>
-            </h4>
-            <p class="text-faded mb-0">
-              automatizadas para análisis de su negocio.
-            </p>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="icon-wrench"></i>
-            </span>
-            <h4 class="subtitulos amarillo">
-              <strong>Soporte</strong>
-            </h4>
-            <p class="text-faded mb-0">de sus proyectos en cualquier fase.</p>
-          </div>
+        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+          <span class="service-icon rounded-circle mx-auto mb-3">
+            <i class="icon-screen-desktop"></i>
+          </span>
+          <h4 class="subtitulos amarillo">
+            <strong>Programación</strong>
+          </h4>
+          <p class="text-faded mb-0">de ideas brillantes y con estilo.</p>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+          <span class="service-icon rounded-circle mx-auto mb-3">
+            <i class="icon-chart"></i>
+          </span>
+          <h4 class="subtitulos amarillo">
+            <strong>Métricas</strong>
+          </h4>
+          <p class="text-faded mb-0">
+            automatizadas para análisis de su negocio.
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <span class="service-icon rounded-circle mx-auto mb-3">
+            <i class="icon-wrench"></i>
+          </span>
+          <h4 class="subtitulos amarillo">
+            <strong>Soporte</strong>
+          </h4>
+          <p class="text-faded mb-0">de sus proyectos en cualquier fase.</p>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Trabajos -->
-    <section class="content-section trabajos" id="trabajos">
-      <div class="container">
-        <div class="content-section-heading container-titulos">
-          <h2 class="text-center azul">Trabajos</h2>
-          <h4 class="text-center sin-negrita">
-            ¡Conozca algunos de mis trabajos!
-          </h4>
-        </div>
-        <div
-          id="carouselExampleIndicators"
-          class="carousel slide my-carousel"
-          data-ride="carousel"
-        >
-          <ol class="carousel-indicators">
-            <li
-              data-target="#carouselExampleIndicators"
-              data-slide-to="0"
-              class="active"
-            ></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <a
-                class="trabajos"
-                href="https://github.com/gcalvoCR/vue-project"
-              >
-                <div class="caption">
-                  <div class="caption-content">
-                    <div class="h2">Aplicaciones full-stack</div>
-                    <p class="mb-0">Utilizando utilizando Vue y Express.</p>
-                  </div>
-                </div>
+  <!-- Trabajos -->
+  <section class="content-section trabajos" id="trabajos">
+    <div class="container">
+      <div class="content-section-heading container-titulos" data-aos="fade-left">
+        <h2 class="text-center azul">Trabajos</h2>
+        <h4 class="text-center sin-negrita">
+          ¡Conozca algunos de mis trabajos!
+        </h4>
+      </div>
+      <div id="carouselExampleIndicators" class="carousel slide my-carousel" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a class="trabajos" href="https://github.com/gcalvoCR/vue-project">
+              <div class="gradient">
                 <img class="img-fluid" src="img/trabajo1.png" alt="" />
-              </a>
-            </div>
-            <div class="carousel-item">
-              <a class="trabajos" href="https://setgamebygcalvocr.netlify.app/">
-                <div class="caption">
-                  <div class="caption-content">
-                    <div class="h2">Aplicaciones front-end</div>
-                    <p class="mb-0">
-                      Utilizando React como framework para su desarrollo.
-                    </p>
-                  </div>
-                </div>
+              </div>
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a class="trabajos" href="https://setgamebygcalvocr.netlify.app/">
+              <div class="gradient">
                 <img class="img-fluid" src="img/trabajo2.png" alt="" />
-              </a>
-            </div>
-            <div class="carousel-item">
-              <a
-                class="trabajos"
-                href="https://gcalvocr.github.io/automation-page/"
-              >
-                <div class="caption">
-                  <div class="caption-content">
-                    <div class="h2">Testing de front-end</div>
-                    <p class="mb-0">Utilizando Selenium y Cypress.</p>
-                  </div>
-                </div>
-                <img class="img-fluid" src="img/trabajo3.png" alt="" />
-              </a>
-            </div>
-            <div class="carousel-item">
-              <a
-                class="trabajos"
-                href="https://gcalvocr.github.io/countdown-app/"
-              >
-                <div class="caption">
-                  <div class="caption-content">
-                    <div class="h2">Aplicaciones web tradicionales</div>
-                    <p class="mb-0">Utilizando HTML, CSS y JavaScript.</p>
-                  </div>
-                </div>
+              </div>
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a class="trabajos" href="https://gcalvocr.github.io/automation-page/">
+              <div class="gradient">
+                <img class="img-fluid" src="img/trabajo3.png" alt=""/>
+              </div>
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a class="trabajos" href="https://gcalvocr.github.io/countdown-app/">
+              <div class="gradient">
                 <img class="img-fluid" src="img/trabajo4.png" alt="" />
-              </a>
-            </div>
+              </div>
+            </a>
           </div>
-          <a
-            class="carousel-control-prev"
-            href="#carouselExampleIndicators"
-            role="button"
-            data-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a
-            class="carousel-control-next"
-            href="#carouselExampleIndicators"
-            role="button"
-            data-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
         </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Formulario de contacto -->
-    <section id="contacto" class="content-section contacto">
-      <div class="contact-form">
-        <div class="container">
-          <form>
-            <div class="row">
-              <div class="col-lg-4 col-md-4 col-sm-12">
-                <h2>¡Conversemos!</h2>
-              </div>
-              <div class="col-lg-8 col-md-8 col-sm-12 right">
-                <h4 id="escribame" class="sin-negrita">Ingrese su mensaje</h4>
-                <div class="form-group">
-                  <input
-                    type="text"
-                    class="form-control form-control-lg"
-                    placeholder="Su nombre"
-                    name=""
-                  />
-                </div>
-                <div class="form-group">
-                  <input
-                    type="email"
-                    class="form-control form-control-lg"
-                    placeholder="SuCorreo@email.com"
-                    name="email"
-                  />
-                </div>
-                <div class="form-group">
-                  <textarea
-                    class="form-control form-control-lg"
-                    placeholder="Mensaje"
-                  >
-                  </textarea>
-                </div>
-                <input
-                  id="btn-enviar"
-                  type="submit"
-                  class="btn btn-secondary btn-block"
-                  value="Enviar"
-                  name=""
-                />
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer text-center">
+  <!-- Formulario de contacto -->
+  <section id="contacto" class="content-section contacto">
+    <div class="contact-form">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-12 detalles">
-            <ul class="text-left ">
-              <li>Teléfono<span>.......</span>(506) 6280-5172</li>
-              <li>Correo<span>...........</span>info@porta2.vs2407.com</li>
-              <li>Portafolio<span>....</span>https://porta2.vs2407.com</li>
-            </ul>
+        <form>
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <h2>¡Conversemos!</h2>
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12 right">
+              <h4 id="escribame" class="sin-negrita">Ingrese su mensaje</h4>
+              <div class="form-group">
+                <input type="text" class="form-control form-control-lg" placeholder="Su nombre" name="" />
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control form-control-lg" placeholder="SuCorreo@email.com"
+                  name="email" />
+              </div>
+              <div class="form-group">
+                <textarea class="form-control form-control-lg" placeholder="Mensaje">
+                  </textarea>
+              </div>
+              <input id="btn-enviar" type="submit" class="btn btn-secondary btn-block" value="Enviar" name="" />
+            </div>
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-12">
-            <ul class="list-inline mb-3">
-              <li class="list-inline-item">
-                <a
-                  class="social-link rounded-circle text-white mr-3"
-                  href="
-        https://www.facebook.com/Gabriel-Calvo-Vargas-106014171535335"
-                >
-                  <i class="icon-social-facebook"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a
-                  class="social-link rounded-circle text-white mr-3"
-                  href="https://www.linkedin.com/in/gabriel-calvo-vargas-932b3357/"
-                >
-                  <i class="icon-social-linkedin"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a
-                  class="social-link rounded-circle text-white"
-                  href="https://github.com/gcalvoCR"
-                >
-                  <i class="icon-social-github"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 detalles">
+          <ul class="text-left">
+            <li>Teléfono<span>.......</span>(506) 6280-5172</li>
+            <li>Correo<span>...........</span>info@porta2.vs2407.com</li>
+            <li>Portafolio<span>....</span>https://porta2.vs2407.com</li>
+          </ul>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <ul class="list-inline mb-3">
+            <li class="list-inline-item">
+              <a class="social-link rounded-circle text-white mr-3" href="
+        https://www.facebook.com/Gabriel-Calvo-Vargas-106014171535335">
+                <i class="icon-social-facebook"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="social-link rounded-circle text-white mr-3"
+                href="https://www.linkedin.com/in/gabriel-calvo-vargas-932b3357/">
+                <i class="icon-social-linkedin"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="social-link rounded-circle text-white" href="https://github.com/gcalvoCR">
+                <i class="icon-social-github"></i>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
-    </footer>
-    <script src="js/bootstrap-swipe-carousel.min.js"></script>
-    <script src="js/portafolio.js"></script>
-  </body>
+    </div>
+  </footer>
+  <script src="js/bootstrap-swipe-carousel.min.js"></script>
+  <script src="js/portafolio.js"></script>
+  <!-- Carga JS AOS ANIMACION -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      //es una duracion global
+      //duration:3000
+    });
+  </script>
+</body>
+
 </html>
