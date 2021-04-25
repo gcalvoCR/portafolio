@@ -392,6 +392,7 @@ footer {
 
 #btn-enviar {
   color: #555 !important;
+  border-radius: 5px;
 }
 
 .centered {
@@ -415,6 +416,8 @@ footer {
   color: white;
   border: 0px;
   background: #6c757d;
+  margin-top: 10px;
+  margin-right: 12px;
 }
 
 .dropdown-menu a {
@@ -518,6 +521,25 @@ div.whatsapp:hover {
 .gradient {
   border: 2px solid #ededed;
   box-shadow: 30px 30px #888888;
+}
+
+.flag{
+  position: fixed;
+  right: 100px;
+  top: 15px;
+  width: 10px;
+  height: 10px;
+  text-align: center;
+  z-index: 999;
+}
+
+.flag img{
+  position: fixed;
+  right: 75px;
+  top: 12px;
+  width: 40px;
+  text-align: center;
+  z-index: 999;
 }
 
 
